@@ -24,4 +24,17 @@ public class MapViewer extends Application {
 		launch(args);
 	}
 
+	/***
+	 * Convert file containing map into 2D integer array.
+	 * @param directory
+	 * @return
+	 */
+	public int[][] readMap(String directory) {
+		int[][] map = {{}};
+
+		return map;
+	}
+
+
+
 }
